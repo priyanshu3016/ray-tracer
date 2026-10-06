@@ -1,0 +1,21 @@
+# Compiled binaries & artifacts
+raytracer
+*.o
+*.obj
+*.dylib
+*.out
+*.dSYM/
+
+# Rendered output
+render.ppm
+
+# CMake build folders & cache
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# macOS files
+.DS_Store
